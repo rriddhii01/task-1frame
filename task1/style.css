@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    
+
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+#navbar{
+  position: fixed;
+  top: 0;
+width: 100%;
+background-color:#333;
+color: white;
+padding:10px 60px;
+align-items: center;
+display:flex;
+justify-content: space-between;
+}
+
+#navbar nav a{
+  color:white;
+  margin: 0 15px;
+  text-decoration:none;
+  text-align: left;
+}
+#navbar div{
+  padding-right : 0px ;
+}
+
+.orng{
+  background-color: darkorange;
+  color: black;
+  border-color: black;
+  border-radius: 0%;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hero_section{
+    background-image: url(webdevelopment_0.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.text_container{
+    color: black;
+    max-width: 900px;
+    margin: 80px 100px;
+    padding-top: 200px;
+    padding-left: 20px;
+    font-size: 50px;
+    text-align: left;
+}
+
+.text_container h1{
+  text-align: left;
+}
+
+.white{
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-radius: 0%;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  
+
+}
+
+.orange{
+  background-color: darkorange;
+  color: black;
+  border-color: black;
+  border-radius: 0%;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+#black_box{
+  background-color: black;
+  padding:20px;
+  color: white;
+}
+
+
+.services, h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.services, h3  {
+  text-align: center;
+}
+
+.services, p{
+  width: 500px;
+  text-align: center;
+  
+}
+.work{
+  display: grid; 
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,2fr));
+    margin: 20px 0;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.grid_item{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  max-width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgb(255, 253, 253);
+  transition: 0.2s ease-in-out;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.card:hover{
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(255, 253, 253, 0.3);
+  transition: 0.2s ease-in-out;
+}
+
+.image_container{
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+
+.card_content{
+  padding: 60px;
+  font-family: sans-serif;
+  
+}
+
+.card_content h4{ 
+  text-align: center;
+  padding: 20px;
+}
+
+.card_container p{
+  text-align: center;
+  width: 350px;
+  padding: 20px;
+}
+
+#our_team{
+  
+    background-color: black;
+    padding:20px;
+    color: white;
+  
+}
+
+.team, p{
+ text-align: center;
+}
+
+.members{
+  display: grid; 
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,2fr));
+    margin: 20px 0;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.grid_item{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.person{
+  max-width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgb(255, 253, 253);
+  transition: 0.2s ease-in-out;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.image_content{
+  padding: 30px;
+}
+
+#bottom_section{
+  padding:20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+justify-content: center;
+display: flex;
+
+}
+
+.content{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+.grid_items{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.contact{
+  width: 100%;
+}
+.contact_logo{
+  padding: 30px;
+  
+}
+
+.contact_logo:hover{
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(255, 253, 253, 0.3);
+  transition: 0.2s ease-in-out;
+}
+
+.link a{
+  padding:10px 60px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.link{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.contact h3{
+  padding: 10px;
+}
+
+.contact h4{
+  text-align: center;
+  font-weight: 5;
+}
